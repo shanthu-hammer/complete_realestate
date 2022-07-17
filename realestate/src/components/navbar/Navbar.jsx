@@ -70,7 +70,7 @@ const Navbar = ({ BurgerColour }) => {
         </ul>
 
         {/* LOGIN */}
-        <Link to="/auth" className={styles.login_container}>
+        <Link to="/login" className={styles.login_container}>
           <span style={{ color: BurgerColour }}>Login</span>
           <BsArrowRight style={{ color: BurgerColour }} />
         </Link>

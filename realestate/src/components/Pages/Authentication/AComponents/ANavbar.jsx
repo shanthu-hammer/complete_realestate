@@ -1,12 +1,12 @@
 
 
-import styles from "./Navbar.module.scss";
+import styles from "../AComponents/ANavbar.module.scss";
 import { NavLink, Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
-import useClickOutside from "../../CustomHooks/ClickOutside";
+import useClickOutside from "../../../../CustomHooks/ClickOutside";
 
 const Navbar = ({ BurgerColour }) => {
   const MenuLink = ({ url, path }) => {
@@ -32,7 +32,7 @@ const Navbar = ({ BurgerColour }) => {
       <nav>
         {/* LOGO */}
         <div className={styles.brand_logo}>
-          <Link to="/">Real</Link>
+          <Link to="/">Real Estate</Link>
         </div>
 
         {/* NAV-BURGER */}
@@ -60,7 +60,7 @@ const Navbar = ({ BurgerColour }) => {
 
           {/* LI - MENULINK */}
           <MenuLink url="" path="Home" />
-          <MenuLink url="buy" path="Buy" />
+          <MenuLink url="signup" path="Signup" />
           <MenuLink url="rent" path="Rent" />
           <MenuLink url="search" path="Search" />
           <MenuLink url="about" path="About" />

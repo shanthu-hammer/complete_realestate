@@ -1,6 +1,6 @@
 import { ArrowButton } from "../../buttons/Button";
 import styles from "./Section2.module.scss";
-import building2 from "../../../../src/assets/building2.jpg";
+import building2 from "../../../../src/assets/2.jpg";
 const Section2 = () => {
   return (
     <section className={styles.section_2}>
@@ -37,16 +37,6 @@ const Section2 = () => {
             largest rental network , to applying , to paying rent.
           </p>
           <ArrowButton text={"See Your Options"} path="rent" />
-        </div>
-
-        {/* Sell */}
-        <div className={styles.sell}>
-          <h3>Sell a home</h3>
-          <p>
-            Wether you get a cash offer throught Real Offers or choose to sell
-            traditionally, we can help you navigate a successful sale.
-          </p>
-          <ArrowButton text={"Use Filters"} path="search" />
         </div>
       </div>
     </section>

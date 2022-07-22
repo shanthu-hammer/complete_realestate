@@ -1,5 +1,5 @@
 import styles from "./Section4.module.scss";
-import building3 from "../../../../src/assets/building3.jpg";
+import building3 from "../../../../src/assets/3.jpg";
 
 const Section4 = () => {
   return (

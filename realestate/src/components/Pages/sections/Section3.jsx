@@ -83,7 +83,7 @@ const Section3 = () => {
       </div>
     </section>
   ); //}
-  console.log("after");
+  
 };
 
 export default Section3;

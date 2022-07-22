@@ -1,7 +1,7 @@
 import styles from "./Section5.module.scss";
 import { ArrowButton } from "../../buttons/Button";
-import building4 from "../../../../src/assets/building4.jpg";
-import building5 from "../../../../src/assets/building5.jpg";
+import building4 from "../../../../src/assets/5.jpg";
+import building5 from "../../../../src/assets/4.jpg";
 const Section5 = () => {
   return (
     <section className={styles.section_5}>
